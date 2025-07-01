@@ -1,0 +1,9 @@
+streamlit
+opencv-python
+pytesseract
+numpy
+Pillow
+gtts
+tensorflow
+langdetect
+googletrans==4.0.0-rc1
