@@ -8,13 +8,13 @@ MediScope is an AI-powered medicine label reader built with Streamlit. It uses O
 
 ## Features
 
-- 📸 **Image Upload** – Upload JPG, JPEG, or PNG images of medicine packaging.
-- 🔧 **User-Selected Preprocessing** – Choose from four OpenCV preprocessing methods (`simple`, `adaptive`, `otsu`, or `none`) to optimize OCR accuracy for different image conditions.
-- 🔍 **Multi-Config OCR** – Runs Tesseract with multiple PSM configurations and aggregates results.
-- 🌐 **Translation** – Detects the language of extracted text and translates non-English content to English using `langdetect` and `googletrans`.
-- 🤖 **AI Validation** – A lightweight TensorFlow/Keras character-level CNN validates whether the extracted text resembles a known medicine name.
-- 🔊 **Text-to-Speech** – Reads the extracted text aloud via `gTTS`.
-- 💊 **Medicine Info Lookup** – Matches extracted text against a built-in medicine dictionary (Paracetamol, Dolo-650, Amoxicillin) and displays usage, dosage, and warnings.
+-  **Image Upload** – Upload JPG, JPEG, or PNG images of medicine packaging.
+-  **User-Selected Preprocessing** – Choose from four OpenCV preprocessing methods (`simple`, `adaptive`, `otsu`, or `none`) to optimize OCR accuracy for different image conditions.
+-  **Multi-Config OCR** – Runs Tesseract with multiple PSM configurations and aggregates results.
+-  **Translation** – Detects the language of extracted text and translates non-English content to English using `langdetect` and `googletrans`.
+-  **AI Validation** – A lightweight TensorFlow/Keras character-level CNN validates whether the extracted text resembles a known medicine name.
+-  **Text-to-Speech** – Reads the extracted text aloud via `gTTS`.
+-  **Medicine Info Lookup** – Matches extracted text against a built-in medicine dictionary (Paracetamol, Dolo-650, Amoxicillin) and displays usage, dosage, and warnings.
 
 > **Note:** `ocr_selector_model.pkl` is included in the repository for future use (automatic preprocessing selection) but is **not yet wired into `app.py`**. Preprocessing selection is currently manual.
 
@@ -160,5 +160,3 @@ The app will open in your browser at `http://localhost:8501`.
 This project is licensed under the terms of the [LICENSE](LICENSE) file included in the repository.
 
 ---
-
-> Made with ❤️ using Streamlit
